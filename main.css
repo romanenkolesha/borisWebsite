@@ -1,0 +1,30 @@
+body {
+    font-family: Helvetica, "Arimo", sans-serif;
+    font-size: 22px;
+}
+.comic-bold {
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .menu_item {
+    text-decoration: none;
+    color: #909090;
+}
+
+.menu_item_active {
+    color: rgb(230, 210, 80);
+}
+.linkBlue {
+    text-decoration: none;
+    border-bottom: 1px solid;
+    color: #06c;
+}
+a:hover {
+    color: #C00;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly; /* Can be changed in the live sample */
+  }
