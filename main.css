@@ -1,13 +1,20 @@
 body {
     font-family: Helvetica, "Arimo", sans-serif;
-    font-size: 22px;
+    font-size: 28px;
 }
+
+/* Fonts family, color, etc. */
 .comic-bold {
     font-family: "Comic Neue", cursive;
     font-weight: 700;
     font-style: normal;
-  }
-  .menu_item {
+}
+
+.yellow {
+    color: rgb(230, 210, 80)
+}
+
+.menu_item {
     text-decoration: none;
     color: #909090;
 }
@@ -15,16 +22,56 @@ body {
 .menu_item_active {
     color: rgb(230, 210, 80);
 }
+
 .linkBlue {
     text-decoration: none;
     border-bottom: 1px solid;
     color: #06c;
 }
+
 a:hover {
     color: #C00;
 }
 
 .container {
     display: flex;
-    justify-content: space-evenly; /* Can be changed in the live sample */
-  }
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        display: block;
+    }
+
+    body {
+        background-color: red;
+    }
+}
+
+/*.menu {
+    display: flex;
+    justify-content: center;
+}
+.menu li {
+      display: inline;
+}
+.menu li a {
+    padding-right: 20px;
+}
+@media screen and (max-width: 600px) {
+    body {
+    
+      background-color: red;
+    }
+    .menu
+    {
+        display: block;
+    }
+    li a 
+    {
+        display: block;
+    }
+    .menu li a {
+        padding-right: 0px;
+    }
+  }*/
