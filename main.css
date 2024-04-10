@@ -47,8 +47,13 @@ a:hover {
         background-color: red;
     }*/
 }
+.image_res {
+    max-width: 100%;
+    height: auto;
+  }
+/* OLD NAVIGATION BEGIN
 
-/*.menu {
+.menu {
     display: flex;
     justify-content: center;
 }
@@ -74,4 +79,5 @@ a:hover {
     .menu li a {
         padding-right: 0px;
     }
-  }*/
+  }
+  OLD NAVIGATION END*/
