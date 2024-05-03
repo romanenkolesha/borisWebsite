@@ -3,6 +3,9 @@ body {
     font-size: 28px;
 }
 
+.big_font {
+font-size: 72px;
+}
 /* Fonts family, color, etc. */
 .comic-bold {
     font-family: "Comic Neue", cursive;
@@ -42,42 +45,8 @@ a:hover {
     .container {
         display: block;
     }
-
-    /*body {
-        background-color: red;
-    }*/
 }
 .image_res {
     max-width: 100%;
     height: auto;
   }
-/* OLD NAVIGATION BEGIN
-
-.menu {
-    display: flex;
-    justify-content: center;
-}
-.menu li {
-      display: inline;
-}
-.menu li a {
-    padding-right: 20px;
-}
-@media screen and (max-width: 600px) {
-    body {
-    
-      background-color: red;
-    }
-    .menu
-    {
-        display: block;
-    }
-    li a 
-    {
-        display: block;
-    }
-    .menu li a {
-        padding-right: 0px;
-    }
-  }
-  OLD NAVIGATION END*/
