@@ -41,15 +41,19 @@ a:hover {
     justify-content: space-evenly;
 }
 
-@media screen and (max-width: 600px) {
-    .container {
-        display: block;
-    }
-}
 .image_res {
     max-width: 100%;
     height: auto;
   }
 .margin_big {
     margin-bottom: 20em;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        display: block;
+    }
+    .margin_big {
+        margin-bottom: 10em;
+    }
 }
